@@ -5,7 +5,7 @@ import re
 import csv
 
 baseUrl = 'https://finance.naver.com/sise/entryJongmok.nhn?&page='
-fileName = 'KOSPI200.csv'
+fileName = '../result/KOSPI200.csv'
 kospi200Arr = []
 if os.path.exists(fileName):
 	os.remove(fileName)
